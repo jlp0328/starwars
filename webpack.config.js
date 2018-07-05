@@ -4,6 +4,7 @@ const CleanObsoleteChunks = require('webpack-clean-obsolete-chunks');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+var port = process.env.PORT || 1984
 
 module.exports = {
   entry: {
@@ -71,7 +72,7 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    port: 1984
+    port: port
   }
 };
 

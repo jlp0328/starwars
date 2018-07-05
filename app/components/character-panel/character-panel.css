@@ -24,8 +24,20 @@
 }
 
 .button-container {
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    display: flex;
+}
+
+#prev-button {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    align-items: center;
+}
+
+#next-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
 }

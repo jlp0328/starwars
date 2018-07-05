@@ -7,8 +7,8 @@
             <md-button class="character-list-name" ng-click="$ctrl.navigateToPage(character)">{{character.name}}</md-button>
         </div>
         <div class="button-container">
-            <md-button ng-hide="$ctrl.starWarsService.currentPage === 1" ng-click="$ctrl.prevCharacters()">Prev</md-button>
-            <md-button ng-hide="$ctrl.starWarsService.currentPage === 9" ng-click="$ctrl.nextCharacters()">Next</md-button>
+            <md-button id="prev-button"ng-hide="$ctrl.starWarsService.currentPage === 1" ng-click="$ctrl.prevCharacters()">Prev</md-button>
+            <md-button id="next-button" ng-hide="$ctrl.starWarsService.currentPage === 9" ng-click="$ctrl.nextCharacters()">Next</md-button>
         </div>
     </div>
 </div>

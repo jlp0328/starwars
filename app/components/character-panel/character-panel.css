@@ -1,0 +1,31 @@
+.left-panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-title {
+    font-size: 32px;
+    padding: 2%;
+}
+
+.character-list {
+    padding: 2%;
+    width: 98%;
+}
+
+.character-list-name {
+    outline: none;
+    padding-top: 1%;
+    font-size: 24px !important;
+    width: 95%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+<div id="character-container">
+    <div class="panel-title">Movies Featuring <span class="pink-text">{{$ctrl.person.name}}</span>:</div>
+
+    <div class="movie-details-indv" ng-repeat="info in $ctrl.movieDetails">
+        <div><span class="pink-text">Title: </span>{{info.title}}</div>
+        <div><span class="pink-text">Director: </span>{{info.director}}</div>
+        <div><span class="pink-text">Epidsode: </span>{{info.episode_id}}</div>
+    </div>
+</div>
